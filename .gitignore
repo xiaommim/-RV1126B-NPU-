@@ -1,0 +1,38 @@
+﻿# Qt / qmake build artifacts
+build-*/
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+Makefile
+Makefile.*
+
+# Object and binary files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+*.out
+
+# Generated moc/uic/rcc files
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large local runtime assets
+*.rknn
+*.onnx
+*.pt
+*.mp4
+*.avi
+*.mkv
